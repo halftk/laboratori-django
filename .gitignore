@@ -1,4 +1,6 @@
+basedades.db
 *.py[cod]
+*.py~
 
 # C extensions
 *.so
