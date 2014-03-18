@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 # Create your models here.
 
 class Donor(models.Model):
-	name = models.CharFierld(max_length= 40)
+	name = models.CharField(max_length= 40)
 
 class Sobre(models.Model):
 	date = models.DateTimeField()
